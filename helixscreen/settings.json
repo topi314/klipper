@@ -117,7 +117,7 @@
           "material": "PLA",
           "nozzle_temp_max": 0,
           "nozzle_temp_min": 0,
-          "remaining_weight_g": 792.4861450195313,
+          "remaining_weight_g": 792.125244140625,
           "spool_name": "",
           "spoolman_id": 0,
           "total_weight_g": 1000.0
@@ -167,7 +167,7 @@
             "temperature_sensor raspberry_pi",
             "temperature_sensor mcu_temp"
           ],
-          "timestamp": "2026-05-07T00:26:47Z"
+          "timestamp": "2026-05-14T14:36:04Z"
         },
         "optional": null
       },
@@ -593,7 +593,7 @@
                   "rowspan": 1
                 },
                 {
-                  "col": 5,
+                  "col": 4,
                   "colspan": 1,
                   "config": {
                     "color": 8069026,
@@ -602,7 +602,7 @@
                   },
                   "enabled": true,
                   "id": "favorite_macro:2",
-                  "row": 2,
+                  "row": 3,
                   "rowspan": 1
                 },
                 {
@@ -615,7 +615,7 @@
                   },
                   "enabled": true,
                   "id": "favorite_macro:3",
-                  "row": 0,
+                  "row": 2,
                   "rowspan": 1
                 },
                 {
@@ -628,7 +628,7 @@
                   },
                   "enabled": true,
                   "id": "favorite_macro:4",
-                  "row": 0,
+                  "row": 2,
                   "rowspan": 1
                 },
                 {
@@ -641,7 +641,7 @@
                   },
                   "enabled": true,
                   "id": "favorite_macro:5",
-                  "row": 0,
+                  "row": 2,
                   "rowspan": 1
                 },
                 {
@@ -654,7 +654,7 @@
                   },
                   "enabled": true,
                   "id": "favorite_macro:6",
-                  "row": 0,
+                  "row": 2,
                   "rowspan": 1
                 },
                 {
@@ -667,7 +667,7 @@
                   },
                   "enabled": true,
                   "id": "favorite_macro:7",
-                  "row": 0,
+                  "row": 2,
                   "rowspan": 1
                 },
                 {
@@ -680,11 +680,11 @@
                   },
                   "enabled": true,
                   "id": "favorite_macro:8",
-                  "row": 0,
+                  "row": 2,
                   "rowspan": 1
                 },
                 {
-                  "col": 0,
+                  "col": 1,
                   "colspan": 1,
                   "config": {
                     "color": 38536,
@@ -696,7 +696,7 @@
                   "rowspan": 1
                 },
                 {
-                  "col": 1,
+                  "col": 0,
                   "colspan": 1,
                   "config": {
                     "color": 38536,
@@ -716,7 +716,7 @@
                   },
                   "enabled": true,
                   "id": "favorite_macro:11",
-                  "row": 1,
+                  "row": 0,
                   "rowspan": 1
                 },
                 {
@@ -728,7 +728,7 @@
                   },
                   "enabled": true,
                   "id": "favorite_macro:12",
-                  "row": 1,
+                  "row": 0,
                   "rowspan": 1
                 },
                 {
@@ -740,7 +740,7 @@
                   },
                   "enabled": true,
                   "id": "favorite_macro:13",
-                  "row": 1,
+                  "row": 0,
                   "rowspan": 1
                 }
               ]
