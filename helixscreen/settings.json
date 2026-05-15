@@ -117,7 +117,7 @@
           "material": "PLA",
           "nozzle_temp_max": 0,
           "nozzle_temp_min": 0,
-          "remaining_weight_g": 792.125244140625,
+          "remaining_weight_g": 765.9354248046875,
           "spool_name": "",
           "spoolman_id": 0,
           "total_weight_g": 1000.0
@@ -167,7 +167,7 @@
             "temperature_sensor raspberry_pi",
             "temperature_sensor mcu_temp"
           ],
-          "timestamp": "2026-05-14T14:36:04Z"
+          "timestamp": "2026-05-15T13:34:07Z"
         },
         "optional": null
       },
@@ -207,7 +207,7 @@
                 },
                 {
                   "col": 0,
-                  "colspan": 4,
+                  "colspan": 3,
                   "config": {
                     "show_job_queue": true,
                     "show_recent_prints": true,
@@ -272,9 +272,9 @@
                   "rowspan": 1
                 },
                 {
-                  "col": 4,
+                  "col": 3,
                   "colspan": 1,
-                  "enabled": true,
+                  "enabled": false,
                   "id": "tool_switcher",
                   "row": 0,
                   "rowspan": 1
@@ -304,8 +304,8 @@
                   "rowspan": 1
                 },
                 {
-                  "col": 5,
-                  "colspan": 1,
+                  "col": 3,
+                  "colspan": 2,
                   "enabled": true,
                   "id": "nozzle_temps",
                   "row": 0,
@@ -427,14 +427,14 @@
                   "rowspan": 1
                 },
                 {
-                  "col": 4,
+                  "col": 3,
                   "colspan": 1,
                   "config": {
                     "fan": "fan"
                   },
                   "enabled": true,
                   "id": "fan:2",
-                  "row": 1,
+                  "row": 3,
                   "rowspan": 1
                 },
                 {
