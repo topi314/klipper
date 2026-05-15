@@ -117,7 +117,7 @@
           "material": "PLA",
           "nozzle_temp_max": 0,
           "nozzle_temp_min": 0,
-          "remaining_weight_g": 765.9354248046875,
+          "remaining_weight_g": 764.3666381835938,
           "spool_name": "",
           "spoolman_id": 0,
           "total_weight_g": 1000.0
@@ -167,7 +167,7 @@
             "temperature_sensor raspberry_pi",
             "temperature_sensor mcu_temp"
           ],
-          "timestamp": "2026-05-15T13:34:07Z"
+          "timestamp": "2026-05-15T14:03:44Z"
         },
         "optional": null
       },
