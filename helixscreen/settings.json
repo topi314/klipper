@@ -129,7 +129,7 @@
           "material": "PLA",
           "nozzle_temp_max": 0,
           "nozzle_temp_min": 0,
-          "remaining_weight_g": 761.6047973632813,
+          "remaining_weight_g": 662.4857177734375,
           "spool_name": "",
           "spoolman_id": 0,
           "total_weight_g": 1000.0
@@ -180,7 +180,7 @@
             "temperature_sensor raspberry_pi",
             "temperature_sensor mcu_temp"
           ],
-          "timestamp": "2026-05-18T15:34:44Z"
+          "timestamp": "2026-05-19T19:41:35Z"
         },
         "optional": null
       },
@@ -287,7 +287,7 @@
                 {
                   "col": 3,
                   "colspan": 1,
-                  "enabled": true,
+                  "enabled": false,
                   "id": "tool_switcher",
                   "row": 2,
                   "rowspan": 1
@@ -352,11 +352,11 @@
                   "rowspan": 1
                 },
                 {
-                  "col": 2,
-                  "colspan": 2,
+                  "col": 0,
+                  "colspan": 1,
                   "enabled": false,
                   "id": "active_spool",
-                  "row": 3,
+                  "row": 2,
                   "rowspan": 1
                 },
                 {
@@ -461,11 +461,11 @@
                   "rowspan": 1
                 },
                 {
-                  "col": 0,
+                  "col": 3,
                   "colspan": 1,
                   "enabled": true,
                   "id": "macros",
-                  "row": 2,
+                  "row": 3,
                   "rowspan": 1
                 },
                 {
@@ -542,7 +542,7 @@
                   "colspan": 1,
                   "config": {
                     "color": 8069026,
-                    "icon": "stop",
+                    "icon": "filament",
                     "macro": "DROP"
                   },
                   "enabled": true,
@@ -616,14 +616,26 @@
                   "rowspan": 1
                 },
                 {
-                  "col": 1,
+                  "col": 2,
                   "colspan": 1,
                   "config": {
-                    "icon": "power",
+                    "icon": "printer_3d",
                     "macro": "XY_OFF"
                   },
                   "enabled": true,
                   "id": "favorite_macro:22",
+                  "row": 2,
+                  "rowspan": 1
+                },
+                {
+                  "col": 0,
+                  "colspan": 1,
+                  "config": {
+                    "icon": "flash",
+                    "macro": "TEST_TOOLS"
+                  },
+                  "enabled": true,
+                  "id": "favorite_macro:23",
                   "row": 2,
                   "rowspan": 1
                 }
@@ -663,7 +675,7 @@
     "load_filament": "",
     "pause": "",
     "purge": "",
-    "quick_button_1": "heat_soak",
+    "quick_button_1": "",
     "quick_button_2": "",
     "resume": "",
     "unload_filament": ""

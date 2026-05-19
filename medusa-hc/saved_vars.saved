@@ -1,14 +1,14 @@
 [Variables]
-t1_gcode_x_offset = 0.085625
-t1_gcode_y_offset = -0.55375
-t1_gcode_z_offset = 0.004844
-t2_gcode_x_offset = 0.10875
-t2_gcode_y_offset = -0.304375
-t2_gcode_z_offset = 0.153594
-t3_gcode_x_offset = 0.193125
-t3_gcode_y_offset = -0.499375
-t3_gcode_z_offset = -0.137031
-t4_gcode_x_offset = 0.313125
-t4_gcode_y_offset = -1.084375
-t4_gcode_z_offset = 0.238125
+t1_gcode_x_offset = -0.013749999993905249
+t1_gcode_y_offset = -0.9306249999930429
+t1_gcode_z_offset = -0.2292187497162388
+t2_gcode_x_offset = -0.0862499999833517
+t2_gcode_y_offset = -1.481874999986232
+t2_gcode_z_offset = -0.23499999951978623
+t3_gcode_x_offset = 0.05812500002841148
+t3_gcode_y_offset = -1.1868749999786132
+t3_gcode_z_offset = -0.32468749925785545
+t4_gcode_x_offset = 0.058125000036199026
+t4_gcode_y_offset = -1.5368749999684042
+t4_gcode_z_offset = -0.18312499908323332
 
