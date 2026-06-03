@@ -4,7 +4,7 @@
     "show_widget_labels": false,
     "toolhead_style": 0
   },
-  "config_version": 16,
+  "config_version": 17,
   "dark_mode": true,
   "display": {
     "bed_mesh_render_mode": 0,
@@ -129,7 +129,7 @@
           "material": "PLA",
           "nozzle_temp_max": 0,
           "nozzle_temp_min": 0,
-          "remaining_weight_g": 662.4857177734375,
+          "remaining_weight_g": 542.4915161132813,
           "spool_name": "",
           "spoolman_id": 0,
           "total_weight_g": 1000.0
@@ -180,7 +180,7 @@
             "temperature_sensor raspberry_pi",
             "temperature_sensor mcu_temp"
           ],
-          "timestamp": "2026-05-19T19:41:35Z"
+          "timestamp": "2026-06-03T15:11:42Z"
         },
         "optional": null
       },
@@ -616,7 +616,7 @@
                   "rowspan": 1
                 },
                 {
-                  "col": 2,
+                  "col": 0,
                   "colspan": 1,
                   "config": {
                     "icon": "printer_3d",
@@ -628,7 +628,7 @@
                   "rowspan": 1
                 },
                 {
-                  "col": 0,
+                  "col": 2,
                   "colspan": 1,
                   "config": {
                     "icon": "flash",
@@ -636,6 +636,17 @@
                   },
                   "enabled": true,
                   "id": "favorite_macro:23",
+                  "row": 2,
+                  "rowspan": 1
+                },
+                {
+                  "col": 3,
+                  "colspan": 1,
+                  "config": {
+                    "macro": "CLEAN"
+                  },
+                  "enabled": true,
+                  "id": "favorite_macro:24",
                   "row": 2,
                   "rowspan": 1
                 }
