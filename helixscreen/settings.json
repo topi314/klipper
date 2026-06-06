@@ -1,7 +1,7 @@
 {
   "active_printer_id": "duender",
   "appearance": {
-    "show_widget_labels": false,
+    "show_widget_labels": true,
     "toolhead_style": 0
   },
   "config_version": 17,
@@ -48,7 +48,7 @@
     }
   },
   "motion": {
-    "jog_mode": 2
+    "jog_mode": 0
   },
   "print_start_history": {
     "entries": [
@@ -129,7 +129,7 @@
           "material": "PLA",
           "nozzle_temp_max": 0,
           "nozzle_temp_min": 0,
-          "remaining_weight_g": 542.4915161132813,
+          "remaining_weight_g": 531.500732421875,
           "spool_name": "",
           "spoolman_id": 0,
           "total_weight_g": 1000.0
@@ -180,7 +180,7 @@
             "temperature_sensor raspberry_pi",
             "temperature_sensor mcu_temp"
           ],
-          "timestamp": "2026-06-03T15:11:42Z"
+          "timestamp": "2026-06-06T23:35:07Z"
         },
         "optional": null
       },
@@ -279,7 +279,7 @@
                 {
                   "col": 4,
                   "colspan": 1,
-                  "enabled": true,
+                  "enabled": false,
                   "id": "ams",
                   "row": 2,
                   "rowspan": 1
@@ -432,11 +432,11 @@
                   "rowspan": 2
                 },
                 {
-                  "col": 0,
+                  "col": 2,
                   "colspan": 1,
                   "enabled": true,
                   "id": "notifications",
-                  "row": 3,
+                  "row": 0,
                   "rowspan": 1
                 },
                 {
@@ -453,11 +453,11 @@
                   "rowspan": 1
                 },
                 {
-                  "col": 1,
+                  "col": 3,
                   "colspan": 1,
                   "enabled": true,
                   "id": "firmware_restart",
-                  "row": 3,
+                  "row": 0,
                   "rowspan": 1
                 },
                 {
@@ -465,7 +465,7 @@
                   "colspan": 1,
                   "enabled": true,
                   "id": "macros",
-                  "row": 3,
+                  "row": 1,
                   "rowspan": 1
                 },
                 {
@@ -521,24 +521,11 @@
                   "colspan": 1,
                   "enabled": true,
                   "id": "motion",
-                  "row": 3,
+                  "row": 1,
                   "rowspan": 1
                 },
                 {
-                  "col": 2,
-                  "colspan": 1,
-                  "config": {
-                    "sensors": [
-                      "temperature_sensor btt_eddy_mcu"
-                    ]
-                  },
-                  "enabled": true,
-                  "id": "thermistor:4",
-                  "row": 0,
-                  "rowspan": 1
-                },
-                {
-                  "col": 4,
+                  "col": 5,
                   "colspan": 1,
                   "config": {
                     "color": 8069026,
@@ -551,7 +538,7 @@
                   "rowspan": 1
                 },
                 {
-                  "col": 5,
+                  "col": 1,
                   "colspan": 1,
                   "config": {
                     "color": 4149685,
@@ -560,11 +547,11 @@
                   },
                   "enabled": true,
                   "id": "favorite_macro:20",
-                  "row": 3,
+                  "row": 2,
                   "rowspan": 1
                 },
                 {
-                  "col": 5,
+                  "col": 0,
                   "colspan": 1,
                   "config": {
                     "color": 4149685,
@@ -580,58 +567,8 @@
                   "col": 3,
                   "colspan": 1,
                   "config": {
-                    "sensors": [
-                      "temperature_sensor mcu_temp"
-                    ]
-                  },
-                  "enabled": true,
-                  "id": "thermistor:6",
-                  "row": 0,
-                  "rowspan": 1
-                },
-                {
-                  "col": 3,
-                  "colspan": 1,
-                  "config": {
-                    "sensors": [
-                      "temperature_sensor raspberry_pi"
-                    ]
-                  },
-                  "enabled": true,
-                  "id": "thermistor:7",
-                  "row": 1,
-                  "rowspan": 1
-                },
-                {
-                  "col": 2,
-                  "colspan": 1,
-                  "config": {
-                    "sensors": [
-                      "temperature_sensor ebb_36_mcu"
-                    ]
-                  },
-                  "enabled": true,
-                  "id": "thermistor:8",
-                  "row": 1,
-                  "rowspan": 1
-                },
-                {
-                  "col": 0,
-                  "colspan": 1,
-                  "config": {
-                    "icon": "printer_3d",
-                    "macro": "XY_OFF"
-                  },
-                  "enabled": true,
-                  "id": "favorite_macro:22",
-                  "row": 2,
-                  "rowspan": 1
-                },
-                {
-                  "col": 2,
-                  "colspan": 1,
-                  "config": {
-                    "icon": "flash",
+                    "color": 8421504,
+                    "icon": "check",
                     "macro": "TEST_TOOLS"
                   },
                   "enabled": true,
@@ -640,13 +577,106 @@
                   "rowspan": 1
                 },
                 {
-                  "col": 3,
+                  "col": 2,
                   "colspan": 1,
                   "config": {
+                    "color": 8069026,
+                    "icon": "filament",
                     "macro": "CLEAN"
                   },
                   "enabled": true,
                   "id": "favorite_macro:24",
+                  "row": 2,
+                  "rowspan": 1
+                },
+                {
+                  "col": 0,
+                  "colspan": 1,
+                  "config": {
+                    "color": 15277667,
+                    "icon": "filament",
+                    "macro": "T0"
+                  },
+                  "enabled": true,
+                  "id": "favorite_macro:25",
+                  "row": 3,
+                  "rowspan": 1
+                },
+                {
+                  "col": 1,
+                  "colspan": 1,
+                  "config": {
+                    "color": 15277667,
+                    "icon": "filament",
+                    "macro": "T1"
+                  },
+                  "enabled": true,
+                  "id": "favorite_macro:26",
+                  "row": 3,
+                  "rowspan": 1
+                },
+                {
+                  "col": 2,
+                  "colspan": 1,
+                  "config": {
+                    "color": 15277667,
+                    "icon": "filament",
+                    "macro": "T2"
+                  },
+                  "enabled": true,
+                  "id": "favorite_macro:27",
+                  "row": 3,
+                  "rowspan": 1
+                },
+                {
+                  "col": 3,
+                  "colspan": 1,
+                  "config": {
+                    "color": 15277667,
+                    "icon": "filament",
+                    "macro": "T3"
+                  },
+                  "enabled": true,
+                  "id": "favorite_macro:28",
+                  "row": 3,
+                  "rowspan": 1
+                },
+                {
+                  "col": 4,
+                  "colspan": 1,
+                  "config": {
+                    "color": 15277667,
+                    "icon": "filament",
+                    "macro": "T4"
+                  },
+                  "enabled": true,
+                  "id": "favorite_macro:29",
+                  "row": 3,
+                  "rowspan": 1
+                },
+                {
+                  "col": 5,
+                  "colspan": 1,
+                  "config": {
+                    "color": 8421504,
+                    "icon": "printer_3d",
+                    "macro": "XY_OFF"
+                  },
+                  "enabled": true,
+                  "id": "favorite_macro:30",
+                  "row": 2,
+                  "rowspan": 1
+                },
+                {
+                  "col": 4,
+                  "colspan": 1,
+                  "config": {
+                    "color": 8421504,
+                    "icon": "check",
+                    "macro": "TEST_SPEED"
+                  },
+                  "enabled": true,
+                  "id": "favorite_macro:31",
                   "row": 2,
                   "rowspan": 1
                 }
