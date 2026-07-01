@@ -4,7 +4,7 @@
     "show_widget_labels": true,
     "toolhead_style": 0
   },
-  "config_version": 17,
+  "config_version": 18,
   "dark_mode": true,
   "display": {
     "bed_mesh_render_mode": 0,
@@ -29,15 +29,20 @@
       "d": 0.0,
       "e": 1.0,
       "f": 0.0,
+      "recheck_pending": false,
       "valid": false
     },
     "jitter_threshold": 5,
-    "scroll_limit": 10,
+    "scroll_guard": true,
+    "scroll_limit": 18,
     "scroll_throw": 25,
     "touch_device": ""
   },
   "language": "en",
   "led": {
+    "auto_state": {
+      "enabled": null
+    },
     "selected_strips": null
   },
   "log_path": "/tmp/helixscreen.log",
@@ -48,7 +53,7 @@
     }
   },
   "motion": {
-    "jog_mode": 0
+    "jog_mode": 2
   },
   "print_start_history": {
     "entries": [
@@ -129,7 +134,7 @@
           "material": "PLA",
           "nozzle_temp_max": 0,
           "nozzle_temp_min": 0,
-          "remaining_weight_g": 531.500732421875,
+          "remaining_weight_g": 503.6078796386719,
           "spool_name": "",
           "spoolman_id": 0,
           "total_weight_g": 1000.0
@@ -180,7 +185,7 @@
             "temperature_sensor raspberry_pi",
             "temperature_sensor mcu_temp"
           ],
-          "timestamp": "2026-06-06T23:35:07Z"
+          "timestamp": "2026-06-30T19:17:39Z"
         },
         "optional": null
       },
@@ -189,6 +194,9 @@
         "hotend": "extruder"
       },
       "leds": {
+        "auto_state": {
+          "mappings": null
+        },
         "color_presets": null,
         "last_brightness": null,
         "last_color": null,
@@ -530,7 +538,8 @@
                   "config": {
                     "color": 8069026,
                     "icon": "filament",
-                    "macro": "DROP"
+                    "macro": "DROP",
+                    "skip_param_prompt": true
                   },
                   "enabled": true,
                   "id": "favorite_macro:19",
@@ -543,7 +552,8 @@
                   "config": {
                     "color": 4149685,
                     "icon": "arrow_down",
-                    "macro": "CLOSE"
+                    "macro": "CLOSE",
+                    "skip_param_prompt": true
                   },
                   "enabled": true,
                   "id": "favorite_macro:20",
@@ -556,7 +566,8 @@
                   "config": {
                     "color": 4149685,
                     "icon": "arrow_up",
-                    "macro": "OPEN"
+                    "macro": "OPEN",
+                    "skip_param_prompt": true
                   },
                   "enabled": true,
                   "id": "favorite_macro:21",
@@ -582,7 +593,8 @@
                   "config": {
                     "color": 8069026,
                     "icon": "filament",
-                    "macro": "CLEAN"
+                    "macro": "CLEAN",
+                    "skip_param_prompt": true
                   },
                   "enabled": true,
                   "id": "favorite_macro:24",
@@ -595,7 +607,8 @@
                   "config": {
                     "color": 15277667,
                     "icon": "filament",
-                    "macro": "T0"
+                    "macro": "T0",
+                    "skip_param_prompt": true
                   },
                   "enabled": true,
                   "id": "favorite_macro:25",
@@ -608,7 +621,8 @@
                   "config": {
                     "color": 15277667,
                     "icon": "filament",
-                    "macro": "T1"
+                    "macro": "T1",
+                    "skip_param_prompt": true
                   },
                   "enabled": true,
                   "id": "favorite_macro:26",
@@ -621,7 +635,8 @@
                   "config": {
                     "color": 15277667,
                     "icon": "filament",
-                    "macro": "T2"
+                    "macro": "T2",
+                    "skip_param_prompt": true
                   },
                   "enabled": true,
                   "id": "favorite_macro:27",
@@ -634,7 +649,8 @@
                   "config": {
                     "color": 15277667,
                     "icon": "filament",
-                    "macro": "T3"
+                    "macro": "T3",
+                    "skip_param_prompt": true
                   },
                   "enabled": true,
                   "id": "favorite_macro:28",
@@ -647,7 +663,8 @@
                   "config": {
                     "color": 15277667,
                     "icon": "filament",
-                    "macro": "T4"
+                    "macro": "T4",
+                    "skip_param_prompt": true
                   },
                   "enabled": true,
                   "id": "favorite_macro:29",
@@ -678,6 +695,22 @@
                   "enabled": true,
                   "id": "favorite_macro:31",
                   "row": 2,
+                  "rowspan": 1
+                },
+                {
+                  "col": -1,
+                  "colspan": 1,
+                  "enabled": false,
+                  "id": "chamber_temperature",
+                  "row": -1,
+                  "rowspan": 1
+                },
+                {
+                  "col": -1,
+                  "colspan": 2,
+                  "enabled": false,
+                  "id": "control_buttons",
+                  "row": -1,
                   "rowspan": 1
                 }
               ]
@@ -748,7 +781,7 @@
   },
   "ui_sounds_enabled": true,
   "update": {
-    "dismissed_version": "0.99.49"
+    "dismissed_version": "0.99.81"
   },
   "wifi_expected": true,
   "wizard_completed": true
