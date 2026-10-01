@@ -25,3 +25,5 @@ log:
 streams:
   webcam:
     - v4l2:device?video=/dev/v4l/by-id/usb-HD_Web_Camera_HD_Web_Camera_Ucamera001-video-index0&input_format=h264&video_size=1920x1080&framerate=30
+  webcam2:
+    - v4l2:device?video=/dev/v4l/by-id/usb-webcamvendor_webcamproduct_00000000-video-index0&input_format=h264&video_size=1920x1080&framerate=30
