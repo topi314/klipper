@@ -4,6 +4,9 @@
 #
 # Bind IPv4 only. ":port" also listens on public IPv6 and would expose the
 # unauthenticated go2rtc UI/RTSP past Authelia.
+#
+# Note: moonraker-timelapse uses /api/frame.mp4 (H.264 keyframe remux, ~0.7s)
+# rather than /api/frame.jpeg (software decode, ~1.5-2s).
 
 api:
   listen: "192.168.178.125:1984"
