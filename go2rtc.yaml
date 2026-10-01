@@ -1,0 +1,24 @@
+# go2rtc camera streamer
+# Native H.264 from the USB webcam, no transcoding (Pi 4/5 have limited H.264 encode).
+# Public URL via Traefik+Authelia: https://duender.topi.lol/go2rtc/
+#
+# Bind IPv4 only. ":port" also listens on public IPv6 and would expose the
+# unauthenticated go2rtc UI/RTSP past Authelia.
+
+api:
+  listen: "192.168.178.118:1984"
+  origin: "*"
+
+rtsp:
+  listen: ""
+
+webrtc:
+  listen: "192.168.178.118:8555"
+
+log:
+  level: info
+  output: stdout
+
+streams:
+  webcam:
+    - v4l2:device?video=/dev/v4l/by-id/usb-webcamvendor_webcamproduct_00000000-video-index0&input_format=h264&video_size=1920x1080&framerate=30
