@@ -2,14 +2,12 @@
 # Native H.264 from the USB webcam, no transcoding (Pi 5 has no H.264 encoder).
 # Public URL via Traefik+Authelia: https://ducr10.topi.lol/go2rtc/
 #
-# Bind IPv4 only. ":port" also listens on public IPv6 and would expose the
-# unauthenticated go2rtc UI/RTSP past Authelia.
-#
-# Note: moonraker-timelapse uses /api/frame.mp4 (H.264 keyframe remux, ~0.7s)
-# rather than /api/frame.jpeg (software decode, ~1.5-2s).
+# Bind IPv4 on all interfaces (localhost for print_record.sh + LAN for Traefik).
+# Do not use bare ":port" — that also listens on public IPv6 and would expose the
+# unauthenticated go2rtc UI past Authelia.
 
 api:
-  listen: "192.168.178.125:1984"
+  listen: "0.0.0.0:1984"
   origin: "*"
 
 rtsp:
