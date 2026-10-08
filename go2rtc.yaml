@@ -2,11 +2,12 @@
 # Native H.264 from the USB webcam, no transcoding (Pi 4/5 have limited H.264 encode).
 # Public URL via Traefik+Authelia: https://duender.topi.lol/go2rtc/
 #
-# Bind IPv4 only. ":port" also listens on public IPv6 and would expose the
-# unauthenticated go2rtc UI/RTSP past Authelia.
+# Bind IPv4 on all interfaces (localhost for full-print remux + LAN for Traefik).
+# Do not use bare ":port" — that also listens on public IPv6 and would expose the
+# unauthenticated go2rtc UI past Authelia.
 
 api:
-  listen: "192.168.178.118:1984"
+  listen: "0.0.0.0:1984"
   origin: "*"
 
 rtsp:
