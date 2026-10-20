@@ -27,7 +27,7 @@ start() {
 		exit 1
 	fi
 	nohup ffmpeg -hide_banner -loglevel error -stream_loop -1 \
-		-i "$SONG" -f alsa "$DEVICE" >/tmp/disco-audio.log 2>&1 &
+		-i "$SONG" -af volume=0.05 -f alsa "$DEVICE" >/tmp/disco-audio.log 2>&1 &
 	echo $! >"$PIDFILE"
 	disown || true
 }
