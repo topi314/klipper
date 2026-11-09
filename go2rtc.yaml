@@ -11,7 +11,7 @@ api:
   origin: "*"
 
 rtsp:
-  listen: ""
+  listen: ":8554"
 
 webrtc:
   listen: "192.168.178.125:8555"
